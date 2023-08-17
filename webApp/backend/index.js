@@ -18,7 +18,7 @@ app.get('/balance/:address', async (req, res) => {
 app.get('/', (req, res) => {
   res.send('Welcome to NFT Marketplace Backend');
   console.log("hii");
-});
+}); 
 
 
 // Start the server
